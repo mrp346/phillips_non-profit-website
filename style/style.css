@@ -15,6 +15,8 @@ body{
   font-weight:400;
 }
 
+/*  Nav bar */
+
 header{
   background: var(--background);
   padding:10px;
@@ -115,6 +117,7 @@ nav-toggle-label span,
   bottom: 7px;
 }
 
+/*  End Nav bar */
 
 .hero {
  background-image: url("/images/sit-stay-read-two-boys-golden-retriever-reading.jpg");  
@@ -185,11 +188,15 @@ nav-toggle-label span,
  
   .wrapper {
     width: 70%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr;
- }  
+ } 
+
+
+ 
+/*  Website sections */
 
 .about{
   background-color: #C97118;
@@ -199,15 +206,149 @@ nav-toggle-label span,
 }
 
 
-.ourfriends{
+section {
   padding-top: 0px 10px 10px 10px;
   background-color:#D5941A ;
   text-align: center ;
-  align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
+.news{
+  background-color: #C97118;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+/*  News card */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.card {
+  width: 300px;
+  background: #333;
+  padding: 1em;
+  color: white;
+  font-family: sans-serif;
+}
+
+.image-container {
+  background: lightblue;
+  width: 100%;
+  height: 250px;
+  padding: 1em;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: right bottom;
+}
+
+h3, p {
+  margin: 1em 0;
+}
+
+p {
+  font-size: .8em;
+  line-height: 1.3;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+  background: lightblue;
+  padding: .5em 1em;
+  border-radius: 25px;
+}
+
+.btn a:hover {
+  background: white;
+  color: lightblue;
+}
+
+
+/*  News card */
+
+.service {
+  background: #000;
+  color: #D5941A ;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+/*  Website sections */
+
+/*  Gallery */
+
+.untitled{ 
+  width: 100%;
+    padding: 100px 0;
+    float: left;
+    background-color: #ffffff;
+  }
+  
+  .gallery {
+    width:100%;
+    padding: 100px 0;
+    float: left;
+  } 
+  
+  .gallery-title{
+    color:#ffffff;
+    text-align:center;
+  }
+  
+  .gallery-box{
+    background-color: rgba(225, 225,225, 0.5);
+    border-radius: 5px;
+    text-align: center; 
+  } 
+  
+  .fa-camera{
+    margin: 86px 0;
+    color: #00ccff;
+    font-size: 44px;
+  }
+  
+  .row {
+    margin-bottom: 20px;
+    float:left;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Gallery */
 
 
 
@@ -223,6 +364,7 @@ nav-toggle-label span,
   background: rgba(57, 128, 130, 1);
   width: 100%;
 }
+
 
 
 
