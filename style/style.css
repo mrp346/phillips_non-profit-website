@@ -6,13 +6,19 @@
 
 *, *::before, *::after{
   box-sizing: border-box;
+  margin: 0;
 }
 
 body{
   margin:0;
-  background: #222;
-  font-family: 'Oswald', sans-serif;
+  background: #fff;
+  font-family: 'Lora', serif;
   font-weight:400;
+
+}
+
+h1{
+  padding: 30px;
 }
 
 /*  Nav bar */
@@ -186,19 +192,16 @@ nav-toggle-label span,
     transform:scale(1,1);
   }  
  
-  /* .wrapper {
-    width: 70%;
-    margin: 0 auto;
-    padding: 25px;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
- } 
-*/
+  
 
 .box-container{
   width: 100% ;
 }
  
+.logo{
+  font-family: 'Share', cursive;
+  color: #FFFFFF;
+}
 /*  essential code */
 
 
@@ -207,8 +210,15 @@ img {
   height:auto;
 }
 
+.news-image{
+  max-width: 100%;
+}
+
+
+
 .box{
 padding: 20px 20px 9px; 
+width: 30%;
 }
 
 section {
@@ -221,73 +231,36 @@ text-align: center ;
   margin: 0 auto;
   padding: 25px;
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
 
 
+.news{
+background-color: #C97118 ;
+}
 
+.about{
+  background-color: #C97118 ;
+}
+
+.gallery{
+  background-color: #D5941A ;
+}
+
+.service { 
+  background-color: #D5941A ;
+} 
+
+
+h1{
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+}
 
 
 
 /*  essential code  */
-
-
-
-
-
-/* section {
-  padding-top: 0px 20px 10px 10px;
-  background-color:#D5941A ;
-  text-align: center ;
-}
-*/
-
-/*
-.news{
-  background-color: #C97118;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  align-items: center;
-}
-*/
-
-/*  News card */
-
-.container{
-  display: flex;
-  justify-content: space-around;
-  
-}
-
-.card {
-  width: 300px;
-  background: #333;
-  padding: 1em;
-  color: white;
-  font-family: sans-serif;
-}
-
-.image-container {
-  background: lightblue;
-  width: 100%;
-  height: 250px;
-  padding: 1em;
-}
-
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-h3, p {
-  margin: 1em 0;
-}
-
-p {
-  font-size: .8em;
-  line-height: 1.3;
-}
-
+ 
 .btn {
   display: flex;
   justify-content: center;
@@ -306,17 +279,6 @@ p {
   color: lightblue;
 }
 
-*/ 
-
-/*  News card */
-
-.service {
-  background: #000;
-  color: #D5941A ;
-  display: grid;
-  
-  align-items: center;
-}
 
 /*  Website sections */
 
@@ -357,7 +319,6 @@ p {
     float:left;
   }
 
-
 /* End Gallery */
 
 
@@ -373,12 +334,4 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
+}
