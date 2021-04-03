@@ -463,5 +463,13 @@ footer {
   background: rgba(57, 128, 130, 1); 
 }
 
+.container:first-child {
+  text-align: center;
+}
+
+.center-nav {
+  color: "blue"
+}
 
 }
+
